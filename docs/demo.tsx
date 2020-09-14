@@ -165,6 +165,7 @@ const fieldItems: SchemaFormProps['fieldItems'] = [
     },
     addButtonProps: {
       type: 'primary',
+      block: false,
     },
   },
   {
