@@ -61,3 +61,6 @@ typings/
 lib
 es
 *.d.ts
+
+# umi
+src/.umi
