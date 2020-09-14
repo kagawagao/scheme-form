@@ -1,6 +1,6 @@
 {
   "name": "@opd/schema-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use Ant Design Form with schema",
   "main": "lib/index.js",
   "modules": "es/index.js",
