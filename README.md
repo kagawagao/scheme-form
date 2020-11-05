@@ -1,20 +1,20 @@
-# @opd/schema-form
+# scheme-form
 
-> schema form based on antd
+> scheme form based on antd
 
 ## Install
 
 ```bash
-npm i @opd/schema-form
+npm i scheme-form
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react'
-import SchemaForm from '@opd/schema-form'
+import SchemeForm from 'scheme-form'
 
-export default () => <SchemaForm fieldItems={[]} />
+export default () => <SchemeForm fieldItems={[]} />
 ```
 
 ## Develop

@@ -1,25 +1,25 @@
 {
-  "name": "@opd/schema-form",
-  "version": "1.0.1",
-  "description": "use Ant Design Form with schema",
+  "name": "scheme-form",
+  "version": "1.0.0",
+  "description": "use Ant Design Form with scheme",
   "main": "lib/index.js",
   "modules": "es/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kagawagao/schema-form.git"
+    "url": "git+https://github.com/kagawagao/scheme-form.git"
   },
   "keywords": [
     "form",
     "antd",
-    "schema",
+    "scheme",
     "ant-design"
   ],
   "author": "kagawagao <kingsongao1221@gmail.com> (https://kingsongao.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kagawagao/schema-form/issues"
+    "url": "https://github.com/kagawagao/scheme-form/issues"
   },
-  "homepage": "https://github.com/kagawagao/schema-form#readme",
+  "homepage": "https://github.com/kagawagao/scheme-form#readme",
   "peerDependencies": {
     "antd": "^4.x",
     "react": "^16.x"

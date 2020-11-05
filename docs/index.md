@@ -1,17 +1,17 @@
 ---
-title: SchemaForm
+title: SchemeForm
 ---
 
-# SchemaForm
+# SchemeForm
 
-[![npm](https://badgen.net/npm/v/@opd/schema-form)](https://npmjs.com/@opd/schema-form)
+[![npm](https://badgen.net/npm/v/scheme-form)](https://npmjs.com/scheme-form)
 
 配置式表单
 
 ## Installation
 
 ```bash
-npm install @opd/schema-form
+npm install scheme-form
 ```
 
 ## Demo

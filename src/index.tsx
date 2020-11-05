@@ -8,17 +8,17 @@ import ListField from './list-field'
 import { registerFieldType } from './components'
 import { getKeyByNamePath } from './utils'
 
-export interface SchemaFormProps extends FormProps {
+export interface SchemeFormProps extends FormProps {
   fieldItems: FieldItem[]
 }
 
-export interface SchemaFormType extends FC<SchemaFormProps> {
+export interface SchemeFormType extends FC<SchemeFormProps> {
   registerFieldType: (type: string, cmp: ComponentType) => void
   Compose: InternalType.Compose
   List: InternalType.List
 }
 
-const SchemaForm: SchemaFormType = ({ fieldItems = [], ...restProps }) => {
+const SchemeForm: SchemeFormType = ({ fieldItems = [], ...restProps }) => {
   return (
     <Form {...restProps}>
       {fieldItems.map((item, index) => {
@@ -36,8 +36,8 @@ const SchemaForm: SchemaFormType = ({ fieldItems = [], ...restProps }) => {
   )
 }
 
-SchemaForm.registerFieldType = registerFieldType
-SchemaForm.Compose = InternalType.Compose
-SchemaForm.List = InternalType.List
+SchemeForm.registerFieldType = registerFieldType
+SchemeForm.Compose = InternalType.Compose
+SchemeForm.List = InternalType.List
 
-export default SchemaForm
+export default SchemeForm

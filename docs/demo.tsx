@@ -1,10 +1,10 @@
 import React, { useCallback } from 'react'
-import SchemaForm, { SchemaFormProps } from '@opd/schema-form'
+import SchemeForm, { SchemeFormProps } from 'scheme-form'
 import { DatePicker, Form } from 'antd'
 
-SchemaForm.registerFieldType('DatePicker', DatePicker)
+SchemeForm.registerFieldType('DatePicker', DatePicker)
 
-const fieldItems: SchemaFormProps['fieldItems'] = [
+const fieldItems: SchemeFormProps['fieldItems'] = [
   {
     type: 'Input',
     name: 'username',
@@ -74,7 +74,7 @@ const fieldItems: SchemaFormProps['fieldItems'] = [
     },
   },
   {
-    type: SchemaForm.Compose,
+    type: SchemeForm.Compose,
     fields: [
       {
         type: 'Input',
@@ -123,11 +123,11 @@ const fieldItems: SchemaFormProps['fieldItems'] = [
     ],
   },
   {
-    type: SchemaForm.List,
+    type: SchemeForm.List,
     name: 'familyMembers',
     label: '家人',
     field: {
-      type: SchemaForm.Compose,
+      type: SchemeForm.Compose,
       fields: [
         {
           type: 'Input',
@@ -169,7 +169,7 @@ const fieldItems: SchemaFormProps['fieldItems'] = [
     },
   },
   {
-    type: SchemaForm.List,
+    type: SchemeForm.List,
     name: 'items',
     label: '列表',
     moveable: false,
@@ -179,7 +179,7 @@ const fieldItems: SchemaFormProps['fieldItems'] = [
     },
   },
   {
-    type: SchemaForm.Compose,
+    type: SchemeForm.Compose,
     fields: [
       {
         type: 'Button',
@@ -217,7 +217,7 @@ export default () => {
   }, [form])
 
   return (
-    <SchemaForm
+    <SchemeForm
       form={form}
       style={{ maxWidth: 800 }}
       labelCol={{ span: 4 }}
