@@ -64,3 +64,7 @@ es
 
 # umi
 src/.umi
+src/.umi*
+
+# doc output
+dist
